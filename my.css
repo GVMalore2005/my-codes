@@ -1,4 +1,310 @@
-@import url();
-*{
-    background-color: green;
+@import url('https://fonts.googleapis.com/css2?family=Forum&display=swap');
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Forum", serif;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+.navbar {
+    padding-left: 60%;
+    padding-top: 20px;
+    padding-bottom: 45px;
+}
+
+.name {
+    color: white;
+    font-family: "Forum", serif;
+    font-size: 25px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+
+.allnav {
+    display: flex;
+}
+
+.allintro {
+    background-color: white;
+    /* color: black; */
+    position: relative;
+    font-family: "Forum", serif;
+    height: 550px;
+    width: 600px;
+    left: 50px;
+    bottom: 700px;
+    padding: 20px;
+
+}
+
+.name2{
+    text-align: center;
+    color: black;
+    font-family: "Forum", serif;
+    font-size: 28px;
+}
+p{
+    text-align: center;
+    font-size: 60px;
+}
+.devep
+{
+    line-height: 90px;
+}
+.resume
+{
+    text-align: center;
+    color: black;
+    font-family: "Forum", serif;
+    font-size: 20px;
+    position:relative;
+    top: 75px;
+}
+.resume:hover{
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.gau
+{
+    width: 1004px;
+    height: 830px;
+    object-fit: cover;
+    object-position: 50% 50%;
+   padding-left: 516px;
+
+}
+
+.black
+{
+   /* padding-left: 60px; */
+   position: relative;
+   bottom: 250px;
+   left: 95px;
+   border: 12px solid white;
+   
+}
+.content
+{
+   
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding-left: 59%;
+    padding-right: 20px;
+    bottom: 600px;
+   
+}
+h2{
+    font-family: "forem", serif;
+    text-align: center;
+}
+.lorem
+{
+    font-size: 18px;
+    text-align: justify;
+    
+}
+button{
+    height: 46px;
+    width: 110px;
+    font-family: "forem",serif;
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    left: 250px;
+    border-radius: 10px;
+
+}
+button:hover
+{
+    cursor: pointer;
+} 
+.container2
+{
+    background-color: white;
+    
+    position: relative;
+    bottom: 400px;
+}
+.services
+{
+
+    color: rgb(0, 0, 0);
+    font-family: "forem",serif;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 50px;
+}
+.allbox
+{
+   display: flex;
+   flex-direction: row;
+   padding-left: 20%;
+   
+}
+.box1
+{
+   position: relative;
+   right: 250px;
+   background-color: black;
+   height: 350px;
+   width: 400px;
+   color: white;
+   text-align: center;
+    font-size: 20px;
+    padding-top: 18px;
+    font-weight: bold;
+border-radius: 15px;
+}
+.box3
+{
+    position: relative;
+    right: 45px;
+    background-color: black;
+    height: 350px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 18px;
+    font-weight: bold;
+border-radius: 15px;
+}
+.box2{
+    background-color: black;
+    height: 350px;
+    position: relative;
+    right: 150px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 18px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.icon1
+{
+    padding-top: 25px;
+}
+.icon2
+{
+     padding-top: 25px;
+}
+.icon3
+{
+     padding-top: 25px;
+}
+
+.info1
+{
+     font-size: 17px;
+     font-family: "forem",serif;
+     padding: 10px;
+     line-height: 30px;
+}
+.info2
+{ 
+       font-size: 17px;
+       font-family: "forem",serif;
+       padding: 10px;
+       line-height: 30px;
+}
+.info3
+{
+       font-size: 17px;
+       font-family: "forem",serif;
+       padding: 10px;
+       line-height: 30px;
+}
+.button-1
+{
+    position: relative;
+    right: 250px;
+    padding-top: 20px;
+
+}
+.b1{
+    height: 36px;
+    background-color: rgb(255, 255, 255);
+    width: 105px;
+    color: rgb(0, 0, 0);
+    font-family: "forem",serif;
+   
+
+}
+.button-2
+{
+    position: relative;
+    right: 250px;
+    padding-top: 20px;
+
+}
+.button-3
+{
+    position: relative;
+    right: 250px;
+    padding-top: 20px;
+
+}
+.beauty
+{
+    font-weight: weight;
+    font-size: 30px;
+    padding-top: 18%;
+    font-family: "forem",serif;
+}
+.hire
+{
+    background-color: black;
+    color: white;
+    font-family: "forem",serif;
+    position: relative;
+    left: 46%;
+    border-radius: 55px;
+    height: 50px;
+    width: 105px;
+}
+.name3
+{
+    text-align: center;
+    font-family: "forem",serif;
+    font-size: 25px;
+    padding-top: 10%;
+    font-weight: bold;
+    
+}
+.outro2
+{
+    text-align: center;
+    font-size: 18px;
+    padding-top: 25px;
+}
+.apps
+{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+i
+{
+    padding: 10px;
+}
+.ending
+{
+    text-align: center;
+    position: relative;
+    color: white;
+    top: 250px;
 }
